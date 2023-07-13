@@ -8,7 +8,7 @@ Anna B. Rüegg<sup>1</sup>, Vera A. van der Weijden<sup>1,#</sup>, João Agostin
 <sup>3</sup> ETH Zurich, Animal Genomics, Institute of Agricultural Sciences, Zurich, Switzerland
 
 <sup>*</sup> corresponding author: susanne.ulbrich@usys.ethz.ch\
-<sup>\#</sup> current address: Max-Planck Institute for Molecular Genetics, Berlin, Germany
+<sup>\#</sup> current address: Max-Planck Institute for Molecular Genetics, Berlin, Germany<br><br>
 
 ### Summary Statement
 Molecular markers for embryo development indicate continuous developmental progression during diapause in the roe deer.
