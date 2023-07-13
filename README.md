@@ -1,1 +1,3 @@
-# roe_deer_dev_diapause
+# Developmental progression continues during embryonic diapause in the roe deer
+
+#### Abstract

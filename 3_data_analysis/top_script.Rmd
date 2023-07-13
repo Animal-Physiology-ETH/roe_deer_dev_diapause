@@ -1,0 +1,114 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+#Generate RDA data files
+The code below is only needed if alternative inputdata should be used
+
+```{r generate data files, eval=FALSE, include=FALSE}
+##expression data
+#expression_data_rda(scaled_counts = T, scaling_methods = "minmax", inputtypes = "TMM")
+##meatdata
+#metadata_rda()
+```
+
+#Define folder for output
+```{r}
+outfolder = file.path("output", "figures", format(Sys.Date(), '%y%m%d'))
+if (!dir.exists(outfolder)) {
+  dir.create(outfolder)
+}
+```
+
+
+```{r}
+library(DevProCapII)
+```
+
+#Figure 1
+Change of embryo cell number over time and KI67 staining 
+
+```{r save PDF of figure 1}
+# remove boxes 
+#embryo_info$Morphology = gsub("\r","",embryo_info$Morphology)
+save_plt(figure1(), filename = "Figure1", w= 18, h= 15, outdir = outfolder)
+save_plt(figure1(), filename = "Figure1",w= 18, h= 15, outdir = outfolder, outformat = "png")
+save_plt(figure1(), filename = "Figure1",w= 18, h= 15, outdir = outfolder, outformat = "tif")
+```
+
+```{r}
+embryo_cell_time_alt()
+
+
+figure1()
+```
+
+
+#Figure 2
+Heatmap of all genes
+
+```{r}
+save_heatmap( w=18, 
+              h = 22,
+              outdir = outfolder,
+              filename =paste0("Figure2"),
+              outformat = "pdf",
+              ht = figure2())
+
+save_heatmap( w=18, 
+              h = 22,
+              outdir = outfolder,
+              filename =paste0("Figure2"),
+              outformat = "png",
+              ht = figure2())
+
+save_heatmap( w=18, 
+              h = 22,
+              outdir = outfolder,
+              filename =paste0("Figure2"),
+              outformat = "tif",
+              ht = figure2())
+
+```
+#Figure 3
+Expression patterns and ICM morphology
+
+```{r}
+save_plt(figure3(), filename = "Figure3", w= 18, h= 21, outdir = outfolder)
+save_plt(figure3(), filename = "Figure3", w= 18, h= 21, outdir = outfolder, outformat = "png")
+
+save_plt(figure3(), filename = "Figure3", w= 18, h= 21, outdir = outfolder, outformat = "tif")
+
+```
+#Figure S1B
+Expression levels
+```{r}
+save_plt(expression_swarm_plt(), filename = "FigureS1B", w= 18, h= 16, outdir = outfolder)
+
+```
+
+
+
+#Figure S2
+Correlations
+
+```{r}
+pdf(file.path(outfolder, paste0("FigureS2_A.pdf")),
+        width= cmtoinch(22), height = cmtoinch(22))
+  corrmat()
+dev.off()
+save_plt(correval_plts(labels = c("B","C","D")), filename = "FigureS2_B", w= 18, h= 6, outdir = outfolder)
+```
+#Figure S3
+Heatmap pluripotency hub genes
+
+```{r}
+save_plt(pppw_heatmap(orderE = "cluster"), filename = "FigureS3", w= 18, h= 16, outdir = outfolder)
+
+```
+
+
+
+
+

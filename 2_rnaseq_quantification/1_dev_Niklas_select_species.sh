@@ -1,0 +1,1 @@
+cat 'Galaxy898-[megablast_Trinity_on_data_800__Assembled_Transcripts_vs_nucleotide_BLAST_database_from_data_895_].tabular' | grep -e bovine -e human -e mouse > devNiklas_bta_hsa_mmu.tsv

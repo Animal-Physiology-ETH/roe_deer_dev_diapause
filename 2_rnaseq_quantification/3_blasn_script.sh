@@ -1,0 +1,1 @@
+bsub -I blastn -query ../DevelopmentalSubset_Niklas/devNiklas_bta_hsa_mmu_filtered.fasta -db joined_em_en_mi_tpm_2_filtered_subset.fasta -task blastn -outfmt 6 -max_target_seqs 1 -evalue 0.05 -perc_identity 90 > devNiklas_JochenAssembly_blastn.out
