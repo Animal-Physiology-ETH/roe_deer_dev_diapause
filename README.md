@@ -1,18 +1,17 @@
 # Developmental progression continues during embryonic diapause in the roe deer
 
 ### Authors
-Anna B. Rüegg<sup>1</sup>, Vera A. van der Weijden<sup>1,#</sup>, João Agostinho de Sousa<sup>2</sup>, Ferdinand von Meyenn<sup>2</sup>,Hubert Pausch<sup>3</sup>, Susanne E. Ulbrich<sup>1,*</sup><br><br>
+Anna B. Rüegg<sup>1</sup>, Vera A. van der Weijden<sup>1,#</sup>, João Agostinho de Sousa<sup>2</sup>, Ferdinand von Meyenn<sup>2</sup>, Hubert Pausch<sup>3</sup>, Susanne E. Ulbrich<sup>1,*</sup><br><br>
 
 <sup>1</sup> ETH Zurich, Animal Physiology, Institute of Agricultural Sciences, Zurich, Switzerland\
 <sup>2</sup> ETH Zurich, Laboratory of Nutrition and Metabolic Epigenetics, Institute of Food, Nutrition and Health, Zurich, Switzerland\
 <sup>3</sup> ETH Zurich, Animal Genomics, Institute of Agricultural Sciences, Zurich, Switzerland
 
 <sup>*</sup> corresponding author: susanne.ulbrich@usys.ethz.ch\
-<sup>\#</sup> current address: Max-Planck Institute for Molecular Genetics, Berlin, Germany<br><br>
+<sup>\#</sup> current address: Max-Planck Institute for Molecular Genetics, Berlin, Germany
 
 ### Summary Statement
 Molecular markers for embryo development indicate continuous developmental progression during diapause in the roe deer.
-
 
 ### Abstract
 <div style="text-align: justify">
