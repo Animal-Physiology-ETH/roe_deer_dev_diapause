@@ -14,6 +14,6 @@ Anna B. Rüegg<sup>1</sup>, Vera A. van der Weijden<sup>1,#</sup>, João Agostin
 Molecular markers for embryo development indicate continuous developmental progression during diapause in the roe deer.
 
 ### Abstract
-<div style="text-align: justify">
+<p align="justify">
 Embryonic diapause in mammals is a temporary developmental delay occurring at the blastocyst stage. In contrast to other diapausing species displaying a full arrest, the blastocyst of the European roe deer (Capreolus capreolus) proliferates continuously and displays considerable morphological changes in the inner cell mass. We hypothesised that developmental progression also continues during this period. Here we evaluate the mRNA abundance of developmental marker genes in embryos during diapause and elongation. Our results show that morphological rearrangements of the epiblast during diapause correlate with gene expression patterns and changes in cell polarity. Immunohistochemical staining further supports these findings. Primitive endoderm formation occurs during diapause in embryos composed of around 3,000 cells. Gastrulation coincides with elongation and thus takes place after embryo reactivation. The slow developmental progression makes the roe deer an interesting model for unravelling the link between proliferation and differentiation and requirements for embryo survival.
-</div>
+</p>
