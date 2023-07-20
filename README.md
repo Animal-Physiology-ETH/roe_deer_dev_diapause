@@ -1,5 +1,7 @@
 # Developmental progression continues during embryonic diapause in the roe deer
 
+[![DOI](https://zenodo.org/badge/668707856.svg)](https://zenodo.org/badge/latestdoi/668707856)
+
 ### Authors
 Anna B. Rüegg<sup>1</sup>, Vera A. van der Weijden<sup>1,#</sup>, João Agostinho de Sousa<sup>2</sup>, Ferdinand von Meyenn<sup>2</sup>, Hubert Pausch<sup>3</sup>, Susanne E. Ulbrich<sup>1,*</sup><br><br>
 
